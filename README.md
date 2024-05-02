@@ -1,4 +1,4 @@
-# `latex-credits-ml`: A LaTeX package for generating CRediT (Contributor Role Taxonomy) statements
+# `latex-credits-ml`: A LaTeX package for generating CRediT (Contributor Role Taxonomy) statements for ML papers
 
 This is a simple LaTeX package for generating contributor role
 statements tailored to the ML/Deep Learning field.
@@ -24,7 +24,7 @@ example can also be found in [example.tex](example.tex)):
 \definecolor{lightgrey}{RGB}{150,150,150}
 \usepackage[role = cardinal, grid = lightgrey, ]{credits}
 
-% The ordering of the values indicates the ordering of the original
+% The ordering of the values indicates the ordering of the 
 % taxonomy, i.e.:
 %
 % Conceptualization
