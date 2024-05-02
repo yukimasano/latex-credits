@@ -38,14 +38,10 @@ example can also be found in [example.tex](example.tex)):
 % Visualization
 % Writing – original draft
 % Writing – review & editing
-\credit{Alice}  {1,1,1,1,1,1,1,1,1,1,1}
-\credit{Bob}    {0,1,0,1,0,1,0,1,0,1,0}
-% Values between 0 and 1 will be scaled to be mixed with the background
-% colour (white, unless changed by TikZ). This enables giving *partial*
-% credit to authors (for instance, if someone helped out initially with
-% data curation, but then later went on to another project).
-\credit{Charlie}{0,0.5,1,0,0,0,0,0,1,0}
-
+\credit{Alice}  {0.5,1,1,1,1,0,1,0,1,1,1}
+\credit{Bob}    {0,1,0.5,1,0.5,0,1,0,1,1,1}
+\credit{Charlie}{1,1,0,0.5,0.5,0,0.5,1,0.5,1,1}
+\credit{Dagobert}{0,0,0,0,0,1,0,0.3,0,0,1}
 \begin{document}
   \insertcredits
 \end{document}
